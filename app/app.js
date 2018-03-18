@@ -31,6 +31,19 @@ import '!file-loader?name=[name].[ext]!./styles/homePage/fonts/fontawesome-webfo
 import '!file-loader?name=[name].[ext]!./styles/homePage/fonts/fontawesome-webfont.ttf';
 import '!file-loader?name=[name].[ext]!./styles/homePage/fonts/fontawesome-webfont.woff';
 import '!file-loader?name=[name].[ext]!./styles/homePage/fonts/fontawesome-webfont.woff2';
+
+import '!file-loader?name=[name].[ext]!./styles/homePage/fonts/fontawesome-webfont.svg';
+import '!file-loader?name=[name].[ext]!./styles/homePage/fonts/glyphicons-halflings-regular.eot';
+import '!file-loader?name=[name].[ext]!./styles/homePage/fonts/glyphicons-halflings-regular.ttf';
+import '!file-loader?name=[name].[ext]!./styles/homePage/fonts/glyphicons-halflings-regular.woff';
+import '!file-loader?name=[name].[ext]!./styles/homePage/fonts/glyphicons-halflings-regular.woff2';
+
+import '!file-loader?name=[name].[ext]!./styles/homePage/font-awesome.css';
+import '!file-loader?name=[name].[ext]!./styles/homePage/bootstrap.css';
+
+import '!file-loader?name=[name].[ext]!./externalJS/jquery-2.1.4.min';
+import '!file-loader?name=[name].[ext]!./externalJS/jquery.mobile.custom.min';
+import '!file-loader?name=[name].[ext]!./externalJS/bootstrap-3.1.1.min';
 /* eslint-enable import/no-unresolved, import/extensions */
 
 import configureStore from './configureStore';
@@ -40,8 +53,6 @@ import { translationMessages } from './i18n';
 
 // Import CSS reset and Global Styles
 import './global-styles';
-import jQueryJS from './externalJS/jquery-2.2.3.min';
-import bootstrapJS from './externalJS/bootstrap';
 // Create redux store with history
 const initialState = {};
 const history = createHistory();
@@ -49,8 +60,6 @@ const store = configureStore(initialState, history);
 const MOUNT_NODE = document.getElementById('app');
 
 const render = (messages) => {
-  jQueryJS();
-  bootstrapJS();
   ReactDOM.render(
     <Provider store={store}>
       <LanguageProvider messages={messages}>

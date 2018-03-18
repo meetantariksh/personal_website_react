@@ -9,55 +9,57 @@ import React from 'react';
 
 import NavigationComponent from '../NavigationComponent';
 
+import menImage from '../../../images/homePage/men.png';
+
+import { 
+  typeAnimation
+} from '../../../externalJS/homePage/customJS-smoothScrolling';
+
 class BannerComponent extends React.Component { // eslint-disable-line react/prefer-stateless-function
+
+  componentDidMount() {
+    typeAnimation();
+  }
+
   render() {
     return (
-      <div className="header-agileinfo">
-        <div className="header-banner text-center">
-          <div className="container">
-            <div className="header-bottom">
-              <div className="col-md-4 col-sm-4 header-left">
-                <span className="fa fa-envelope-o icon" aria-hidden="true"></span>
-                <a href="mailto:info@example.com">info@example.com</a>
-              </div>
-              <div className="col-md-4 col-sm-4 logo">
-                <h1 className="main-title">
-                  <a href="index.html">Explore</a>
-    
-                </h1>
-              </div>
-              <div className="col-md-4 col-sm-4 header-right">
-                <span className="fa fa-phone icon" aria-hidden="true"></span>
-                <p>123 456 789</p>
-              </div>
-              <div className="clearfix"></div>
-            </div>
-            <div className="banner-text">
-              <h4>welcome to my site!</h4>
-              <h3>i'm canyon</h3>
-              <div className="banner-slide">
-                <h2 className="bnrtext">I'm a</h2>
-                <b>
-                  <span className="span1">
-                    web developer
-                    <br /> web designer
-                    <br /> UI developer
-                    <br /> web blogger
-                    <br />
-                  </span>
-                </b>
-    
-                <div className="clearfix"></div>
-              </div>
+      <div className="banner" id="home" >
+        <div className="header">
+          <div className="w3_agile_logo">
+            <h1><a href="index.html">My Info<span>WHO AM I?</span></a></h1>
+          </div>
+          <div className="w3_menu">
+            <div className="mobile-nav-button">
+              <div className="mobile-nav-button__line"></div>
+              <div className="mobile-nav-button__line"></div>
+              <div className="mobile-nav-button__line"></div>
             </div>
           </div>
-    
+          <div className="clearfix"> </div>
         </div>
-    
-        <div className="clear"></div>
-        
-        <NavigationComponent />
-      </div>
+        <div className="agile_banner_info">
+        <h2><span>HI! I'm</span> Antariksh Roy</h2>
+          <div id="typed-strings" className="agileits_w3layouts_strings">
+              <p><i>FRONTEND DEVELOPER.</i></p>
+              <p><i>BACKEND DEVELOPER.</i></p>
+              <p><i>FULL STACK DEVELOPER.</i></p>
+              <p><i>WEB DEVELOPER.</i></p>
+            </div>
+          <span id="typed" style={{whiteSpace: 'pre'}}></span>
+          <p className="banner-p-w3ls">Excellence is not an act, it's a habbit.</p>
+        </div>
+        <div className="w3_agileits_social_media">
+          <ul>
+            <li><a href="#" className="wthree_facebook"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#" className="wthree_twitter"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#" className="wthree_dribbble"><i className="fa fa-dribbble" aria-hidden="true"></i></a></li>
+            <li><a href="#" className="wthree_behance"><i className="fa fa-behance" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+        <div className="banner-image-w3layouts">
+          <img src={menImage} alt=" " className="img-responsive" />
+        </div>
+    </div>
     );
   }
 }
