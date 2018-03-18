@@ -68,7 +68,7 @@ class AboutMeComponent extends React.Component { // eslint-disable-line react/pr
           !this.state.showPlayer && 
           <div className="mfp-container mfp-inline-holder"><div className="mfp-content"><div id="small-dialog" className="ww3ls_small_dialog wthree_pop mfp-hide">		
 					<div className="agileits_modal_body">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Qmx5NLHrZqA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe width="800" height="500" src="https://www.youtube.com/embed/Qmx5NLHrZqA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 					</div>
 				<button title="Close (Esc)" type="button" className="mfp-close">×</button></div></div></div>
           
@@ -79,7 +79,7 @@ class AboutMeComponent extends React.Component { // eslint-disable-line react/pr
             <div className="mfp-bg my-mfp-zoom-in mfp-ready"></div>
             <div className="mfp-wrap mfp-close-btn-in mfp-auto-cursor my-mfp-zoom-in mfp-ready" tabIndex="-1" style={{top: '725px', position: 'absolute', height: '874px'}}><div className="mfp-container mfp-inline-holder"><div className="mfp-content"><div id="small-dialog" className="w3ls_small_dialog wthree_pop">		
             <div className="agileits_modal_body">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Qmx5NLHrZqA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="800" height="500" src="https://www.youtube.com/embed/Qmx5NLHrZqA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
           <button title="Close (Esc)" type="button" className="mfp-close" onClick={this.togglePlayer}>×</button></div></div></div></div>
         </div>
