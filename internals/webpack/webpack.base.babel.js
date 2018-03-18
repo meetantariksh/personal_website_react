@@ -59,6 +59,17 @@ module.exports = (options) => ({
                 quality: '65-90',
                 speed: 4,
               },
+              query: {
+                mozjpeg: {
+                  progressive: true,
+                },
+                gifsicle: {
+                  interlaced: true,
+                },
+                optipng: {
+                  optimizationLevel: 7,
+                }
+              }
             },
           },
         ],
