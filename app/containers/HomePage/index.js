@@ -53,7 +53,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
           <AboutMeComponent />
           <section className="mid-w3layouts">
             <div className="container">
-              <h3>Let's <span>work</span> together indeed!</h3>
+              <h3>Let's <span>work</span> together!</h3>
             </div>
           </section>
           <SkillsComponent />

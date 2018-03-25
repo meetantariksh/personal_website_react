@@ -1,6 +1,7 @@
 import { injectGlobal } from 'styled-components';
 
 import aboutMeImage from './images/homePage/about.jpg';
+import skillsImage from './images/homePage/skills.jpg';
 
 /* eslint no-unused-expressions: 0 */
 injectGlobal`
@@ -447,7 +448,7 @@ li.dropdown.act a.w3_icons_act {
     padding: 5em;
 }
 .person-info-agileits-w3layouts ul {
-    margin-top: 3.75em;
+    margin-top: 5.5em;
 }
 .person-info-agileits-w3layouts ul li {
     list-style: none;
@@ -851,7 +852,7 @@ section.mid-w3layouts a:hover {
 /*-- mid --*/ 
 /*-- skills --*/ 
 .skills-agileinfo {
-    background: url(../../images/homePage/skills.jpg)no-repeat 0px 0px;
+    background: url(${skillsImage})no-repeat 0px 0px;
     background-size: cover;
     background-attachment: fixed;
 }
