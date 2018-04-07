@@ -14,6 +14,8 @@ import React from 'react';
 import BannerComponent from '../../components/HomePage/BannerComponent/Loadable';
 import AboutMeComponent from '../../components/HomePage/AboutMeComponent/Loadable';
 import SkillsComponent from '../../components/HomePage/SkillsComponent/Loadable';
+import ExperiencesComponent from '../../components/HomePage/ExperincesComponent/Loadable';
+import AwardsComponent from '../../components/HomePage/AwardsComponent/Loadable';
 
 import '../../styles/homePage/lightbox.css';
 import '../../styles/homePage/popuo-box.css';
@@ -57,6 +59,8 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
             </div>
           </section>
           <SkillsComponent />
+          <AwardsComponent />
+          <ExperiencesComponent />
       </div>
     );
   }
