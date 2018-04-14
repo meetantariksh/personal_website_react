@@ -34,6 +34,18 @@ class BannerComponent extends React.Component { // eslint-disable-line react/pre
               <div className="mobile-nav-button__line"></div>
               <div className="mobile-nav-button__line"></div>
             </div>
+            <nav className="mobile-menu">
+              <ul>
+                <li><a href="#home" className="active scroll" >Home</a></li>
+                <li><a href="#about" className="scroll" >About</a></li>
+                <li><a href="#skills" className="scroll" >Skills</a></li>
+                <li><a href="#awards" className="scroll" >Awards</a></li>
+                <li><a href="#work" className="scroll" >Education</a></li>
+                <li><a href="#classes" className="scroll" >Services</a></li>
+                <li><a href="#contact" className="scroll" >Contact</a></li>
+              </ul>
+                <div className="clearfix"></div>
+            </nav>
           </div>
           <div className="clearfix"> </div>
         </div>

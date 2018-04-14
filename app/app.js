@@ -27,6 +27,8 @@ import LanguageProvider from 'containers/LanguageProvider';
 import '!file-loader?name=[name].[ext]!./manifest.json';
 import 'file-loader?name=[name].[ext]!./.htaccess';
 
+import '!file-loader?name=[name].[ext]!./styles/homePage/style.css';
+
 import '!file-loader?name=[name].[ext]!./styles/homePage/fonts/fontawesome-webfont.eot';
 import '!file-loader?name=[name].[ext]!./styles/homePage/fonts/fontawesome-webfont.ttf';
 import '!file-loader?name=[name].[ext]!./styles/homePage/fonts/fontawesome-webfont.woff';
@@ -52,7 +54,6 @@ import configureStore from './configureStore';
 import { translationMessages } from './i18n';
 
 // Import CSS reset and Global Styles
-import './global-styles';
 // Create redux store with history
 const initialState = {};
 const history = createHistory();

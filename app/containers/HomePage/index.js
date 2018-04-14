@@ -17,19 +17,10 @@ import SkillsComponent from '../../components/HomePage/SkillsComponent/Loadable'
 import ExperiencesComponent from '../../components/HomePage/ExperincesComponent/Loadable';
 import AwardsComponent from '../../components/HomePage/AwardsComponent/Loadable';
 import WebsiteServicesComponent from '../../components/HomePage/WebsiteServicesComponent/Loadable';
+import ContactMeComponent from '../../components/HomePage/ContactMeComponent/Loadable';
 
 import '../../styles/homePage/lightbox.css';
 import '../../styles/homePage/popuo-box.css';
-
-import { 
-  navigationBar,
-  cmOverlay,
-  magicPop,
-  scroolToTop,
-  smoothScroll,
-  typeAnimation,
-  responsiveSlides
-} from '../../externalJS/homePage/customJS-smoothScrolling';
 
 import easingMain from '../../externalJS/easing';
 import cmOverlayMain from '../../externalJS/jquery.cm-overlay';
@@ -47,6 +38,9 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
     magicPoopupMain();
     typedMain();
     smoothScroolMain();
+    easingMain();
+    moveToTopMain();
+    responseMain();
   }
 
   render() {
@@ -62,7 +56,9 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
           <SkillsComponent />
           <AwardsComponent />
           <ExperiencesComponent />
+          
           <WebsiteServicesComponent />
+          <ContactMeComponent />
       </div>
     );
   }
