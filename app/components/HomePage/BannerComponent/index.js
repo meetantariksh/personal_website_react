@@ -42,6 +42,7 @@ class BannerComponent extends React.Component { // eslint-disable-line react/pre
                 <li><a href="#awards" className="scroll" >Awards</a></li>
                 <li><a href="#work" className="scroll" >Education</a></li>
                 <li><a href="#classes" className="scroll" >Services</a></li>
+                <li><a href="#socialContributions" className="scroll" >Social Contributions</a></li>
                 <li><a href="#contact" className="scroll" >Contact</a></li>
               </ul>
                 <div className="clearfix"></div>
@@ -62,10 +63,7 @@ class BannerComponent extends React.Component { // eslint-disable-line react/pre
         </div>
         <div className="w3_agileits_social_media">
           <ul>
-            <li><a href="#" className="wthree_facebook"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#" className="wthree_twitter"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a href="#" className="wthree_dribbble"><i className="fa fa-dribbble" aria-hidden="true"></i></a></li>
-            <li><a href="#" className="wthree_behance"><i className="fa fa-behance" aria-hidden="true"></i></a></li>
+              
           </ul>
         </div>
         <div className="banner-image-w3layouts">

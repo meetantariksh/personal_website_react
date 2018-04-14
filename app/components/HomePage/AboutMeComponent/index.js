@@ -7,6 +7,7 @@
 import React from 'react';
 import YouTube from 'react-youtube';
 // import styled from 'styled-components';
+import '../../../styles/homePage/style.css';
 
 const opts = {
   height: '390',
@@ -47,7 +48,7 @@ class AboutMeComponent extends React.Component { // eslint-disable-line react/pr
           </div>
             <div className="col-md-6 person-info-agileits-w3layouts">
             <h3 className="w3_head w3_head1">About Me <span>I am Antariksh Roy</span></h3>
-            <p><span>Hi!, I am Antariksh Roy </span>Nam arcu mauris, tincidunt sed convallis non, egestas ut lacus. Cras sapien urna, malesuada ut varius consequat, hendrerit nisl. Aliquam vestibulum, odio non ullamcorper malesuada.Nam arcu mauris, tincidunt sed convallis non, egestas ut lacus.</p>
+            <p><span>Hi! I am Antariksh Roy. </span> Frontend Developer (React and Angular) | Backend Developer (JAVA) | Systems Engineer | Thinker | Dreamer | Traveller | Jester</p>
               <ul>
                 <li><span>Name</span>: Antariksh Roy</li>
                 <li><span>Age</span>: 25 Years</li>
@@ -57,7 +58,10 @@ class AboutMeComponent extends React.Component { // eslint-disable-line react/pr
                 <li><span>Alternate Phone</span>: (+91) 987 484 2035</li>
                 <li><span>Website</span>: <a href="http://meetantariksh.co.in" target='_blank'>meetantariksh.co.in</a></li>
                 <li><span>Address</span>: 6/1 A, N.P. Lane, Kolkata (700031), WB, India</li>
-                <li><a href="#" className="botton-w3ls">Download CV</a>
+                <li></li>
+                <li></li>
+                <li>
+                  {/*<a href="#" className="botton-w3ls">Download CV</a>*/}
                   <a style={{cursor: 'pointer'}} onClick={this.togglePlayer} className="play-icon popup-with-zoom-anim botton-w3ls">Watch my video</a>
                 </li>
               </ul>

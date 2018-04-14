@@ -28,14 +28,14 @@ class SkillsComponent extends React.Component { // eslint-disable-line react/pre
                       <div className="progress-bar active" style={{width: '70%'}}>
                       </div>
                     </div>
-                    <h6>Java <span> 75% </span></h6>
+                    <h6>Java <span> 65% </span></h6>
                     <div className="progress">
-                      <div className="progress-bar active" style={{width: '75%'}}>
+                      <div className="progress-bar active" style={{width: '65%'}}>
                       </div>
                     </div>
-                    <h6>AWS (Amazon Web Services) <span> 65% </span></h6>
+                    <h6>AWS (Amazon Web Services) <span> 60% </span></h6>
                     <div className="progress  w3-agile prgs-w3agile-last">
-                      <div className="progress-bar active" style={{width: '65%'}}>
+                      <div className="progress-bar active" style={{width: '60%'}}>
                       </div>
                     </div>
                   </div> 

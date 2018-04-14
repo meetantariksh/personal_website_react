@@ -55,10 +55,10 @@ class ContactMeComponent extends React.Component { // eslint-disable-line react/
           <div className="col-md-4 contact-grids contact-mid">
           <br/><br/>
           <ul>
-              <li><i className="fa fa-map-marker" aria-hidden="true"></i>Jackson, 538, USA</li>
-              <li> {'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'} 6/1 A,</li>
-              <li>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}Naskar Para Lane, Selimpur Road,</li>
-              <li> {'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'} Kolkata-700031, West Bengal,</li>
+              <li> <i className="fa fa-map-marker" aria-hidden="true"></i> 6/1 A,</li>
+              <li>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'} Naskar Para Lane,</li>
+              <li> {'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'} Selimpur Road,</li>
+              <li> {'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'} Kolkata (700031),</li>
               <li> {'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'} India</li>
             </ul>
           </div> 
