@@ -19,6 +19,8 @@ import AwardsComponent from '../../components/HomePage/AwardsComponent/Loadable'
 import WebsiteServicesComponent from '../../components/HomePage/WebsiteServicesComponent/Loadable';
 import ContactMeComponent from '../../components/HomePage/ContactMeComponent/Loadable';
 import SocialContributionsComponent from '../../components/HomePage/SocialContributionsComponent/Loadable';
+import ErrorBoundary from '../../components/ErrorBoundary';
+import NewsContainer from '../NewsContainer';
 
 import '../../styles/homePage/lightbox.css';
 import '../../styles/homePage/popuo-box.css';
@@ -46,7 +48,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
 
   render() {
     return (
-      <div>
+      <ErrorBoundary>
           <BannerComponent />
           <AboutMeComponent />
           <section className="mid-w3layouts">
@@ -58,6 +60,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
           <AwardsComponent />
           <ExperiencesComponent />
           <WebsiteServicesComponent />
+          <NewsContainer />
           <section className="mid-w3layouts">
             <div className="container">
               <h3>It's not how much we give but how much love we put into giving.<span>― Mother Teresa</span></h3>
@@ -65,7 +68,7 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
           </section>
           <SocialContributionsComponent />
           <ContactMeComponent />
-      </div>
+      </ErrorBoundary>
     );
   }
 }

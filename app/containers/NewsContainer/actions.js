@@ -18,6 +18,27 @@ export function defaultAction() {
   };
 }
 
-export function loadNewsContent() {
-  
+export function loadNews() {
+  return {
+    type: LOAD_NEWS_CONTENT,
+  };
+}
+
+export function loadNewsComplete(newsData) {
+  return {
+    type: LOAD_NEWS_CONTENT_COMPLETE,
+    newsData
+  };
+}
+
+export function loadNewsError() {
+  return {
+    type: LOAD_NEWS_CONTENT_ERROR,
+  };
+}
+
+export function resetLoadNews() {
+  return {
+    type: RESET_LOAD_NEWS_CONTENT,
+  };
 }

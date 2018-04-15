@@ -19,7 +19,31 @@ const makeSelectNewsContainer = () => createSelector(
   (substate) => substate.toJS()
 );
 
+const makeSelectLoadingNews = () => createSelector(
+  selectNewsContainerDomain,
+  (substate) => substate.get('loadingNews')
+);
+
+const makeSelectLoadingNewsComplete = () => createSelector(
+  selectNewsContainerDomain,
+  (substate) => substate.get('loadingNewsComplete')
+);
+
+const makeSelectLoadingNewsError = () => createSelector(
+  selectNewsContainerDomain,
+  (substate) => substate.get('loadingNewsError')
+);
+
+const makeSelectNewsData = () => createSelector(
+  selectNewsContainerDomain,
+  (substate) => substate.get('newsData')
+);
+
 export default makeSelectNewsContainer;
 export {
   selectNewsContainerDomain,
+  makeSelectLoadingNews,
+  makeSelectLoadingNewsError,
+  makeSelectLoadingNewsComplete,
+  makeSelectNewsData
 };
