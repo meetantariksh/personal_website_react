@@ -3,6 +3,7 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const OfflinePlugin = require('offline-plugin');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = require('./webpack.base.babel')({
   // In production, we skip all hot-reloading stuff
@@ -18,6 +19,9 @@ module.exports = require('./webpack.base.babel')({
 
   plugins: [
     new webpack.optimize.ModuleConcatenationPlugin(),
+    new Dotenv({
+      path: 'internals/prod.env'
+    }),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor',
       children: true,

@@ -31,6 +31,33 @@ class ContactMeComponent extends React.Component { // eslint-disable-line react/
     return (
       <div className="contact-info" id='contact'>
         <div className="container">
+
+          {/* <div className="col-md-16 contact-grids" style={{textAlign: 'center'}}>
+            <h5>My Twitter</h5>
+            <div  className="callbacks_container">
+                <ul className="rslides" id="slider3">
+                  <li>
+                    <i className="fa fa-twitter" aria-hidden="true"></i>Praesent imperdiet diam sagittis, egestas <a href="#" className="mail">
+                    @http://t.co/9vslJFpW</a> <span>ABOUT 15 MINS</span>
+                  </li>
+                  <li>
+                    <i className="fa fa-twitter" aria-hidden="true"></i>Diam sagittis, egestas praesent imperdiet<a href="#" className="mail">
+                    @http://t.co/9vslJFpW</a> <span>ABOUT 2 HOURS</span>
+                  </li>
+                  <li>
+                    <i className="fa fa-twitter" aria-hidden="true"></i>Imperdiet diam sagittis, praesent egestas <a href="#" className="mail">
+                    @http://t.co/9vslJFpW</a> <span>ABOUT 3 DAYS</span>
+                  </li>
+                  <li>
+                    <i className="fa fa-twitter" aria-hidden="true"></i>Egestas praesent imperdiet diam sagittis <a href="#" className="mail">
+                    @http://t.co/9vslJFpW</a> <span>ABOUT 1 WEEK</span>
+                  </li>
+                </ul>
+              </div>	
+    </div> */}
+
+          <br />
+          <br />
           <div className="col-md-4 contact-grids">
             <h5>Find me</h5>
             <div className="w3_agileits_social_media-footer">
@@ -61,7 +88,7 @@ class ContactMeComponent extends React.Component { // eslint-disable-line react/
               <li> {'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'} Kolkata (700031),</li>
               <li> {'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'} India</li>
             </ul>
-          </div> 
+          </div>
           <div className="clearfix"></div>
         </div>
       </div>
