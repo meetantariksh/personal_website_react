@@ -45,6 +45,7 @@ class BannerComponent extends React.Component { // eslint-disable-line react/pre
                 <li><a href="#socialContributions" className="scroll" >Social Contributions</a></li>
                 <li><a href="#contact" className="scroll" >Contact</a></li>
               </ul>
+              <div className="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="antariksh-roy-60953360"><a class="LI-simple-link" href='https://in.linkedin.com/in/antariksh-roy-60953360?trk=profile-badge'>Antariksh Roy</a></div>
                 <div className="clearfix"></div>
             </nav>
           </div>
