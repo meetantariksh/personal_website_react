@@ -21,7 +21,6 @@ export function requestGetAPIData(url) {
 }
 
 export function requestPostAPIData(url, body) {
-  console.log(body);
   return axios.post(url, body)
     .then(checkStatus)
     .then(parseJSON);

@@ -26,7 +26,7 @@ class WebsiteServicesComponent extends React.Component { // eslint-disable-line 
 						<div className="agileits_service_grid_btm_left2">
 							<i className="fa fa-desktop" aria-hidden="true"></i>
 							<h5>Web Development</h5>
-							<p>[COMMING SOON]</p>
+							<p>[COMING SOON]</p>
 						</div>
 						<img src={image4} alt=" " className="img-responsive" />
 					</div>
@@ -36,7 +36,7 @@ class WebsiteServicesComponent extends React.Component { // eslint-disable-line 
 						<div className="agileits_service_grid_btm_left2">
 							<i className="fa fa-camera-retro" aria-hidden="true"></i>
 							<h5>Photography</h5>
-							<p>[COMMING SOON]</p>
+							<p>[COMING SOON]</p>
 						</div>
 						<img src={image5} alt=" " className="img-responsive" />
 					</div>
@@ -46,7 +46,7 @@ class WebsiteServicesComponent extends React.Component { // eslint-disable-line 
 						<div className="agileits_service_grid_btm_left2">
 							<i className="fa fa-amazon" aria-hidden="true"></i>
 							<h5>Amazon Web Services</h5>
-							<p>[COMMING SOON]</p>
+							<p>[COMING SOON]</p>
 						</div>
 						<img src={image6} alt=" " className="img-responsive" />
 					</div>

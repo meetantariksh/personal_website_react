@@ -61,7 +61,7 @@ class AboutMeComponent extends React.Component { // eslint-disable-line react/pr
                 <li></li>
                 <li></li>
                 <li>
-                  {/*<a href="#" className="botton-w3ls">Download CV</a>*/}
+                  <a target='_blank' href="http://www.meetantariksh.co.in/ResumeFiles/antariksh_resume.pdf" className="botton-w3ls">Download CV</a>
                   <a style={{cursor: 'pointer'}} onClick={this.togglePlayer} className="play-icon popup-with-zoom-anim botton-w3ls">Watch my video</a>
                 </li>
               </ul>

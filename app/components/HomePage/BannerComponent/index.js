@@ -60,7 +60,7 @@ class BannerComponent extends React.Component { // eslint-disable-line react/pre
               <p><i>WEB DEVELOPER.</i></p>
             </div>
           <span id="typed" style={{whiteSpace: 'pre'}}></span>
-          <p className="banner-p-w3ls">Excellence is not an act, it's a habbit.</p>
+          <p className="banner-p-w3ls">Excellence is not an act, it's a habit.</p>
         </div>
         <div className="w3_agileits_social_media">
           <ul>
